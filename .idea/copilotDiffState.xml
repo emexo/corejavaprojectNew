@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/java/com/emexo/collection/map/Main.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/emexo/collection/map/Main.java" />
+              <option name="originalContent" value="package com.emexo.collection.map;&#10;&#10;import lombok.extern.log4j.Log4j2;&#10;import java.util.HashMap;&#10;import java.util.LinkedHashMap;&#10;import java.util.Map;&#10;import java.util.TreeMap;&#10;&#10;@Log4j2&#10;public class Main {&#10;    public static void main(String[] args) {&#10;&#10;&#10;        Account account = new Account();&#10;        account.setAccountNo(456);&#10;        account.setAccountName(&quot;Gary&quot;);&#10;&#10;        Account account1= new Account();&#10;        account1.setAccountNo(566);&#10;        account1.setAccountName(&quot;Natalia&quot;);&#10;&#10;        Customer customer = new Customer();&#10;        customer.setCustomerId(&quot;24234dsf&quot;);&#10;        customer.setCustomerName(&quot;Gary&quot;);&#10;&#10;        Customer customer1 = new Customer();&#10;        customer1.setCustomerName(&quot;Natalia&quot;);&#10;        customer1.setCustomerId(&quot;234523dsf&quot;);&#10;&#10;        Map&lt;Account, Customer&gt; map = new HashMap&lt;&gt;();&#10;        map.put(account, customer);&#10;        map.put(account, customer);&#10;        map.put(account1, customer1);&#10;&#10;&#10;&#10;        map.forEach((acc,  cus) -&gt; log.info(&quot;Account:{} and customer:{}}&quot;, acc, cus) );&#10;    }&#10;}&#10;" />
+              <option name="updatedContent" value="package com.emexo.collection.map;&#10;&#10;import lombok.extern.log4j.Log4j2;&#10;import java.util.HashMap;&#10;import java.util.LinkedHashMap;&#10;import java.util.Map;&#10;import java.util.List;&#10;import java.util.ArrayList;&#10;import java.util.Comparator;&#10;import java.util.Map.Entry;&#10;&#10;@Log4j2&#10;public class Main {&#10;    public static void main(String[] args) {&#10;&#10;&#10;        Account account = new Account();&#10;        account.setAccountNo(456);&#10;        account.setAccountName(&quot;Gary&quot;);&#10;&#10;        Account account1= new Account();&#10;        account1.setAccountNo(566);&#10;        account1.setAccountName(&quot;Natalia&quot;);&#10;&#10;        Customer customer = new Customer();&#10;        customer.setCustomerId(&quot;24234dsf&quot;);&#10;        customer.setCustomerName(&quot;Gary&quot;);&#10;&#10;        Customer customer1 = new Customer();&#10;        customer1.setCustomerName(&quot;Natalia&quot;);&#10;        customer1.setCustomerId(&quot;234523dsf&quot;);&#10;&#10;        Map&lt;Account, Customer&gt; map = new HashMap&lt;&gt;();&#10;        map.put(account, customer);&#10;        map.put(account1, customer1);&#10;&#10;        // sort map by Customer name (value) and preserve order in a LinkedHashMap&#10;        List&lt;Entry&lt;Account, Customer&gt;&gt; entries = new ArrayList&lt;&gt;(map.entrySet());&#10;        entries.sort(Comparator.comparing(e -&gt; e.getValue().getCustomerName()));&#10;&#10;        Map&lt;Account, Customer&gt; sortedByValue = new LinkedHashMap&lt;&gt;();&#10;        for (Entry&lt;Account, Customer&gt; e : entries) {&#10;            sortedByValue.put(e.getKey(), e.getValue());&#10;        }&#10;&#10;        // print sorted map&#10;        sortedByValue.forEach((acc, cus) -&gt; log.info(&quot;Account:{} and customer:{}&quot;, acc, cus));&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

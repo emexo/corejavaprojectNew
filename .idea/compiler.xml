@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.46/a5cfe99fdf320e84955ef653f2ce1bf789d11385/lombok-1.18.46.jar" />
+        </processorPath>
+        <module name="corejavaproject.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="26">
+      <module name="Banking-Management-MVC" target="11" />
+      <module name="Banking-Management-MVC.main" target="11" />
+      <module name="Banking-Management-MVC.test" target="11" />
+      <module name="bankingmanagement-api" target="21" />
+      <module name="bankingmanagement-api.main" target="21" />
+      <module name="bankingmanagement-api.test" target="21" />
+      <module name="bankingmanagementapi" target="21" />
+      <module name="bankingmanagementapi.main" target="21" />
+      <module name="bankingmanagementapi.test" target="21" />
+      <module name="bankingmanagementwithmvc" target="21" />
+      <module name="bankingmanagementwithmvc.main" target="21" />
+      <module name="bankingmanagementwithmvc.test" target="21" />
+      <module name="bankingmanagementwithmvcwar" target="21" />
+      <module name="common-dto" target="21" />
+      <module name="corejavaproject.module1.main" target="21" />
+      <module name="corejavaproject.module1.test" target="21" />
+      <module name="EurekaClient" target="21" />
+      <module name="EurekaClient.main" target="21" />
+      <module name="EurekaClient.test" target="21" />
+      <module name="EurekaClientTwo" target="21" />
+      <module name="EurekaClientTwo.main" target="21" />
+      <module name="EurekaClientTwo.test" target="21" />
+      <module name="EurekaServer" target="21" />
+      <module name="EurekaServer.main" target="21" />
+      <module name="EurekaServer.test" target="21" />
+      <module name="HibernateProject" target="16" />
+      <module name="inventory-service" target="21" />
+      <module name="order-orchestrator" target="21" />
+      <module name="order-service" target="21" />
+      <module name="payment-service" target="21" />
+      <module name="saga-orchestration" target="21" />
+      <module name="spring-cloud-oauth2-example" target="21" />
+      <module name="SpringAOPProject" target="1.8" />
+      <module name="springbatch-chunk" target="21" />
+      <module name="springbatch-chunk.main" target="21" />
+      <module name="springbatch-chunk.test" target="21" />
+      <module name="springbatch-jobparameter" target="21" />
+      <module name="springbatch-jobparameter.main" target="21" />
+      <module name="springbatch-jobparameter.test" target="21" />
+      <module name="springbatch-listener" target="21" />
+      <module name="springbatch-listener.main" target="21" />
+      <module name="springbatch-listener.test" target="21" />
+      <module name="springbatch-tasklet" target="21" />
+      <module name="springbatch-tasklet.main" target="21" />
+      <module name="springbatch-tasklet.test" target="21" />
+      <module name="SpringBootOAuthGitHubLogin" target="21" />
+      <module name="springbootwithmvc" target="21" />
+      <module name="springbootwithmvc.main" target="21" />
+      <module name="springbootwithmvc.test" target="21" />
+      <module name="SpringCloudCircuitBreaker" target="21" />
+      <module name="SpringCloudCircuitBreaker.main" target="21" />
+      <module name="SpringCloudCircuitBreaker.test" target="21" />
+      <module name="SpringConfigClient" target="21" />
+      <module name="SpringConfigClient.main" target="21" />
+      <module name="SpringConfigClient.test" target="21" />
+      <module name="SpringConfigServer" target="21" />
+      <module name="SpringConfigServer.main" target="21" />
+      <module name="SpringConfigServer.test" target="21" />
+      <module name="springcoreproject" target="21" />
+      <module name="springcoreproject.main" target="21" />
+      <module name="springcoreproject.test" target="21" />
+      <module name="SpringIntegrationKafka" target="21" />
+      <module name="SpringIntegrationKafka.main" target="21" />
+      <module name="SpringIntegrationKafka.test" target="21" />
+      <module name="SpringJwtAuthExample" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EurekaClient" options="-parameters" />
+      <module name="EurekaClient.main" options="-parameters" />
+      <module name="EurekaClient.test" options="-parameters" />
+      <module name="EurekaClientTwo" options="-parameters" />
+      <module name="EurekaClientTwo.main" options="-parameters" />
+      <module name="EurekaClientTwo.test" options="-parameters" />
+      <module name="EurekaServer" options="-parameters" />
+      <module name="EurekaServer.main" options="-parameters" />
+      <module name="EurekaServer.test" options="-parameters" />
+      <module name="SpringBootOAuthGitHubLogin" options="-parameters" />
+      <module name="SpringCloudCircuitBreaker" options="-parameters" />
+      <module name="SpringCloudCircuitBreaker.main" options="-parameters" />
+      <module name="SpringCloudCircuitBreaker.test" options="-parameters" />
+      <module name="SpringConfigClient" options="-parameters" />
+      <module name="SpringConfigClient.main" options="-parameters" />
+      <module name="SpringConfigClient.test" options="-parameters" />
+      <module name="SpringConfigServer" options="-parameters" />
+      <module name="SpringConfigServer.main" options="-parameters" />
+      <module name="SpringConfigServer.test" options="-parameters" />
+      <module name="SpringIntegrationKafka" options="-parameters" />
+      <module name="SpringIntegrationKafka.main" options="-parameters" />
+      <module name="SpringIntegrationKafka.test" options="-parameters" />
+      <module name="SpringJwtAuthExample" options="-parameters" />
+      <module name="bankingmanagementapi" options="-parameters" />
+      <module name="bankingmanagementapi.main" options="-parameters" />
+      <module name="bankingmanagementapi.test" options="-parameters" />
+      <module name="bankingmanagementwithmvc" options="-parameters" />
+      <module name="bankingmanagementwithmvc.main" options="-parameters" />
+      <module name="bankingmanagementwithmvc.test" options="-parameters" />
+      <module name="bankingmanagementwithmvcwar" options="-parameters" />
+      <module name="common-dto" options="-parameters" />
+      <module name="inventory-service" options="-parameters" />
+      <module name="order-orchestrator" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="payment-service" options="-parameters" />
+      <module name="reporting-api" options="-parameters" />
+      <module name="reporting-api.main" options="-parameters" />
+      <module name="reporting-api.test" options="-parameters" />
+      <module name="spring-cloud-oauth2-example" options="-parameters" />
+      <module name="springbatch-chunk" options="-parameters" />
+      <module name="springbatch-chunk.main" options="-parameters" />
+      <module name="springbatch-chunk.test" options="-parameters" />
+      <module name="springbatch-jobparameter" options="-parameters" />
+      <module name="springbatch-jobparameter.main" options="-parameters" />
+      <module name="springbatch-jobparameter.test" options="-parameters" />
+      <module name="springbatch-listener" options="-parameters" />
+      <module name="springbatch-listener.main" options="-parameters" />
+      <module name="springbatch-listener.test" options="-parameters" />
+      <module name="springbatch-tasklet" options="-parameters" />
+      <module name="springbatch-tasklet.main" options="-parameters" />
+      <module name="springbatch-tasklet.test" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackgroundAgentGlobalSettings">
+    <option name="selectedModelId" value="auto" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c39e1887-1991-4b5d-a548-61f701555dd6" name="Changes" comment="Adding update bank" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Applications/Projects/CoreJavaRepo/corejavaproject" value="2XhJwZte2vaw4xAsWoKkDauiKrQ" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedChatMode">
+    <option name="chatModeId" value="Agent" />
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="edit-panel" value="GPT-5 mini" />
+      <entry key="chat-panel" value="GPT-5 mini" />
+      <entry key="agent-panel" value="GPT-5 mini" />
+    </selectedModels>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../GitRepo/bankingmanagement-api">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../SpringRepo/Banking-Management-MVC">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../SpringRepo/Eureka/EurekaClient">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../SpringRepo/Eureka/EurekaClientTwo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../SpringRepo/Eureka/EurekaServer">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../SpringRepo/SpringCloudCircuitBreaker">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../SpringRepo/SpringConfigClient">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../SpringRepo/SpringConfigServer">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../SpringRepo/SpringIntegrationKafka">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../SpringRepo/bankingmanagement-api">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../SpringRepo/bankingmanagementapi">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../SpringRepo/bankingmanagementwithmvc">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../SpringRepo/eMexo Training/bankingmanagement-api">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../SpringRepo/reporting-api">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../SpringRepo/springbatch-chunk">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../SpringRepo/springbatch-jobparameter">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../SpringRepo/springbatch-listener">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../SpringRepo/springbatch-tasklet">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../SpringRepo/springbootwithmvc">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../SpringRepo/springcoreproject">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/../../SpringRepo/bankingmanagement-api">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../../SpringRepo/reporting-api">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../../SpringRepo/SpringCloudCircuitBreaker">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../../SpringRepo/SpringConfigServer">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../../SpringRepo/Eureka/EurekaServer">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../../SpringRepo/Eureka/EurekaClient">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../../SpringRepo/Eureka/EurekaClientTwo">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../../SpringRepo/springbootwithmvc">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../../SpringRepo/bankingmanagementapi">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../../SpringRepo/springbatch-tasklet">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../../SpringRepo/springbatch-listener">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../../SpringRepo/SpringIntegrationKafka">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../../SpringRepo/bankingmanagementwithmvc">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="corejavaproject" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Record" />
+        <option value="package-info" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21/Contents/Home/lib/src.zip!/java.base/java/util/Date.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2XhJwZte2vaw4xAsWoKkDauiKrQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.PassengerManager.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringJwtAuthExampleApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build corejavaproject.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EurekaClient [:com.myspringboot.eureka.EurekaClientApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EurekaClientTwo [:com.myspringboot.eureka.EurekaClientTwoApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EurekaServer [:com.myspringboot.eureka.EurekaServerApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringConfigClient [:com.springconfigclient.SpringConfigClientApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SpringConfigServer [:com.springconfigserver.SpringConfigServerApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.bankingmanagementapi [:com.bankingmanagement.BankingManagement.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.array.Array.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.assocication.composition.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.autoboxingandunboxing.Autoboxing.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.collection.list.AccountMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.collection.list.ArrayListExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.collection.list.ArrayListExample2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.collection.list.LinkedListExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.collection.list.ProductMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.collection.map.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.collection.map.MapExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.collection.queue.QueueExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.collection.set.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.collection.set.SetExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.concurrentcollection.CopyOnWriteArrayListExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.conditionalstatement.ConditionalStatement.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.conditionalstatement.RegulatoryReport.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.conditionalstatement.SwitchCase.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.constructor.Account.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.constructor.Bank.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.constructor.Employee.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.designpattern.composite.Client.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.enum1.AccountTypeMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.enum1.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.exception.ExceptionExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.exception.ExceptionExample1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.exception.ExceptionExample2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.exception.ExceptionHandling.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.generics.GenericMethod.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.generics.WildCard.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.iostream.ByteStream.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.iostream.CharacterStream.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.iostream.bufferedstream.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.iostream.bytestream.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.iostream.characterstream.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java11.ConvertToArray.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java11.OptionalExample.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java11.ReadFile.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java11.StringIsBlank.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java11.StringLines.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java11.StringRepeat.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java11.StringTrim.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java12.CompactNumber.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java12.FileCompare.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java12.StringIndent.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java12.StringTransform.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java12.SwitchExpression.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java12.TeeingExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java12.TeeingExample1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java14.TestMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java21.BankingVirtualThreadExecutor.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java8.datetime.TestMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java8.lambda.AdditionMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java8.lambda1.PrintMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java8.stream.StudentMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java9.ImmutableCollection.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java9.TakeWhileAndDropWhile.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.jdbc.DBConnection.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.jdbc.JDBCMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.jdbc.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.loopingstatement.LoopingStatementExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.loopingstatement.NestedForLoop.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.method.DBConnection.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.method.Main.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.oops.abstract1.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.oops.association.compisition.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.oops.composition.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.oops.composition1.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.oops.encapsulation.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.oops.inheritance.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.oops.interface1.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.oops.interface2.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.oops.polymorphism.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.operators.UnaryOperator.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.refelection.AccountMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.refelection.LoanMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.refelection.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.scanner.ScannerExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.serialization.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.serialization.ProductMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.serialization.TestMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.stream.bytestream.ByteStreamExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.string.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.string.MutableString.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.string.StringComparision.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.string.StringExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread.automicvariable.ThreadsTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread.blockingqueue.ProducerConsumerExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread.cyclicbarrier.CyclicBarrierExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread.forkjoin.AvailableProcessor.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread.livelock.HostageRescueLivelock.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread.readwritelock.ReadWriteExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread.reentrantlock.ReentrantExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread.starvation.StarvationExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread.threadlocalvariable.TestMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread.volatile1.VolatileMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.Main1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.RunnableMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.RunnableWithLambda.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.SynchronizedExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.ThreadJoin.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.TicketMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.autamicvariable.ThreadsTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.blockingqueue.BlockingQueuePipeline.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.countdownlatch.CountDownLatchDemo.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.countdownlatch.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.cyclicbarrier.CyclicBarrierExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.cyclicbarrier.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.deadlock.DeadlockExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.executor.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.executor.OrderMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.lambda.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.lambda.TicketExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.notify.OddEvenPrinter.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.runnable.OrderMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.runnable.TicketMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.runnable.WithLambda.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.semaphore.CarParking.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.semaphore.SemaphoreExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.synchronized1.SynchronizedExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.synchronizedexample.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.threadclass.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.vilatile1.StudentMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.yield.YieldExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread1.yield.YieldExample1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread2.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread2.OrderMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread2.PaymentMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread2.RunnableWithLambda.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread2.TicketMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.variable.instancevariable.Employee.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.variable.staticvariable.Account.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.variable.staticvariable.Bank.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.collection.list.ArrayListExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.collection.list.ProductMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.conditionalstatement.ConditionalStatement.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.constructor.Employee.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.enum1.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.exception.ExceptionHandling.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.iostream.ByteStreamExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.javafeatures.java8.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.loopingstatement.LoopingStament.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.method.Employee.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.multithreading.join.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.multithreading.lambda.RunnableWithLambda.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.multithreading.runnable.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.multithreading.threadclass.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.oops.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.oops.abstract1.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.oops.abstract2.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.oops.inheritance.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.oops.inheritance1.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.oops.interface1.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.reflection.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.serialization.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.string.MutableString.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.string.StringComparison.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.string.StringCreation.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.thread.ThreadExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.thread.join.ThreadJoinExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.thread.runnable.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.thread.runnablewithlambda.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.thread.threadclass.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.variable.instancevariable.Employee.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.variable.staticvariable.Account.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.variable1.Account.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.javaproject.variable1.Student.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springcoreproject [:com.emexo.annotation.componentscan.TestMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springcoreproject [:com.emexo.annotation.propertyfile.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springcoreproject [:com.emexo.aop.main.TestMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Applications/Projects/CoreJavaRepo/corejavaproject/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3908046&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/emexo/oops/aggregation" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/emexo/oops/association/aggregation" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/emexo/assocication/aggregation" />
+      <recent name="$PROJECT_DIR$/../../SpringRepo/springcoreproject/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../SpringRepo/bankingmanagementwithmvc/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/../../SpringRepo/springbootwithmvc/src/main/resources/templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.emexo.oops.interface2" />
+      <recent name="com.emexo.oops.interface1" />
+      <recent name="com.javaproject.iostream" />
+      <recent name="com.javaproject.oops.interface1" />
+      <recent name="com.emexo.iostream.bufferedstream" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle build jacocoTestReport" />
+      <command value="gradle clean build" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.com.emexo.oops.interface2.Main">
+    <configuration name="ConditionalStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.emexo.conditionalstatement.ConditionalStatement" />
+      <module name="corejavaproject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.emexo.conditionalstatement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.emexo.string.Main" />
+      <module name="corejavaproject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.emexo.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.emexo.conditionalstatement.SwitchCase" />
+      <module name="corejavaproject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.emexo.conditionalstatement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnaryOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.emexo.operators.UnaryOperator" />
+      <module name="corejavaproject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.emexo.operators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.emexo.oops.interface2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.emexo.oops.interface2.Main" />
+      <module name="corejavaproject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.emexo.oops.interface2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ConditionalStatement" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.SwitchCase" />
+      <item itemvalue="Application.UnaryOperator" />
+      <item itemvalue="Application.com.emexo.oops.interface2.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.emexo.oops.interface2.Main" />
+        <item itemvalue="Application.UnaryOperator" />
+        <item itemvalue="Application.SwitchCase" />
+        <item itemvalue="Application.ConditionalStatement" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c39e1887-1991-4b5d-a548-61f701555dd6" name="Changes" comment="" />
+      <created>1699075618510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699075618510</updated>
+    </task>
+    <task id="LOCAL-00001" summary="fix for the build issue">
+      <option name="closed" value="true" />
+      <created>1723365637601</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723365637601</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix for the build issue">
+      <option name="closed" value="true" />
+      <created>1723365827178</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723365827178</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix for the build issue">
+      <option name="closed" value="true" />
+      <created>1723368602619</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723368602619</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix for the build issue">
+      <option name="closed" value="true" />
+      <created>1723370668666</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723370668666</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding find by bank id">
+      <option name="closed" value="true" />
+      <created>1723381985488</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723381985488</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding save bank">
+      <option name="closed" value="true" />
+      <created>1723383181308</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723383181308</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding update bank">
+      <option name="closed" value="true" />
+      <created>1724592286799</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724592286799</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework.security:spring-security-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kafka:kafka_2.13" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.integration:spring-integration-core" />
+    <option featureType="dependencySupport" implementationName="java:io.projectreactor:reactor-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-context" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-stream" />
+    <option featureType="dependencySupport" implementationName="java:junit:junit" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.batch:spring-batch-core" />
+    <option featureType="dependencySupport" implementationName="java:org.thymeleaf:thymeleaf" />
+    <option featureType="dependencySupport" implementationName="maven-packaging:war" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.ws.rs:jakarta.ws.rs-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-messaging" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix for the build issue" />
+    <MESSAGE value="Adding find by bank id" />
+    <MESSAGE value="Adding save bank" />
+    <MESSAGE value="Adding update bank" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding update bank" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../SpringRepo/SpringJwtAuthExample/src/main/java/com/emexo/jwt/JwtTokenUtil.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../SpringRepo/springcoreproject/src/main/java/com/springcoreproject/annotation/scope/DBConnection.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../SpringRepo/bankingmanagement-api/src/main/java/com/bankingmanagement/service/BankServiceImpl.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/emexo/oops/ploymorphism/TestMain.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/corejavaproject/thread/ReentrantLockExample.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../SpringRepo/reporting-api/src/main/java/com/reporting/service/ReportingService.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/emexo/designpattern/chainofresposibility/FrontDeskSupport.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/emexo/constructor/Bank.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/emexo/iostream/bytestream/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/emexo/method/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javaproject/conditionalstatement/ConditionalStatement.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java8/datetime/TestMain.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/emexo/variable/instancevariable/Employee.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/emexo/constructor/Account.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.security.access.AccessDeniedException" package="org.springframework.security.access" />
+          <option name="timeStamp" value="7" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/emexo/thread/threadlocalvariable/TestMain.java</url>
+          <line>4</line>
+          <properties class="com.emexo.thread.threadlocalvariable.TestMain">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
