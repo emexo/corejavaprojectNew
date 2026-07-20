@@ -4,23 +4,22 @@ import lombok.extern.log4j.Log4j2;
 
 @Log4j2
 public class RunnableWithLambda {
-    public static void main(String[] args) {
+    static void main() {
         Runnable runnable = () -> {
-            log.info(Thread.currentThread().getName() + "- Start");
+            log.info(Thread.currentThread().getName() + " Started");
             try {
-                Thread.sleep(12000);
+                Thread.sleep(9000);
             } catch (InterruptedException e) {
-                throw new RuntimeException(e);
+                log.error("Interrupted exception");
             }
-            log.info(Thread.currentThread().getName() + "- end");
+            log.info(Thread.currentThread().getName() + " End");
+
         };
 
         Thread t1 = new Thread(runnable);
-        t1.setName("order1");
         t1.start();
 
         Thread t2 = new Thread(runnable);
-        t2.setName("order2");
         t2.start();
     }
 }

@@ -14,6 +14,11 @@ public class Car {
         this.year = year;
     }
 
+    public Car(String brand) {
+        this.brand = brand;
+    }
+
+
     public void displayInfo()  {
         System.out.println("Car Brand: " + brand);
         System.out.println("Car Model: " + model);

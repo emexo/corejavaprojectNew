@@ -1,13 +1,28 @@
-2026-07-12 08:26:54,425 INFO c.e.o.UnaryOperator [main] 11
-2026-07-12 08:26:54,432 INFO c.e.o.UnaryOperator [main] 11
-2026-07-12 08:28:10,673 INFO c.e.o.UnaryOperator [main] 10
-2026-07-12 08:28:10,677 INFO c.e.o.UnaryOperator [main] 11
-2026-07-12 08:28:54,611 INFO c.e.o.UnaryOperator [main] 9
-2026-07-12 08:28:54,617 INFO c.e.o.UnaryOperator [main] 9
-2026-07-12 08:29:43,229 INFO c.e.o.UnaryOperator [main] 10
-2026-07-12 08:29:43,232 INFO c.e.o.UnaryOperator [main] 9
-2026-07-12 09:09:58,071 INFO c.e.o.i.Dog [main] Dog is running
-2026-07-12 09:10:26,774 INFO c.e.o.i.Dog [main] Dog is running
-2026-07-12 09:10:26,778 INFO c.e.o.i.Main [main] Animal Type: Mammal
-2026-07-12 09:10:39,902 INFO c.e.o.i.Dog [main] Dog is running
-2026-07-12 09:10:39,908 INFO c.e.o.i.Main [main] Animal Type: Mammal
+2026-07-19 15:15:34,910 INFO c.e.t.SynchronizedExample [Thread-2] Thread-2 inside the print
+2026-07-19 15:15:34,910 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 inside the print
+2026-07-19 15:15:34,910 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 inside the print
+2026-07-19 15:15:56,686 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 inside the print
+2026-07-19 15:16:05,692 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 exist the print
+2026-07-19 15:16:05,694 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 inside the print
+2026-07-19 15:16:14,702 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 exist the print
+2026-07-19 15:16:14,708 INFO c.e.t.SynchronizedExample [Thread-2] Thread-2 inside the print
+2026-07-19 15:16:23,714 INFO c.e.t.SynchronizedExample [Thread-2] Thread-2 exist the print
+2026-07-19 16:39:17,319 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 inside the print
+2026-07-19 16:39:26,328 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 exist the print
+2026-07-19 16:39:26,330 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 inside the print
+2026-07-19 16:39:32,806 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 inside the print
+2026-07-19 16:39:32,806 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 inside the print
+2026-07-19 16:39:41,814 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 exist the print
+2026-07-19 16:39:41,814 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 exist the print
+2026-07-19 16:40:20,439 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 inside the print
+2026-07-19 16:40:29,447 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 exist the print
+2026-07-19 16:40:29,449 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 inside the print
+2026-07-19 16:40:38,456 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 exist the print
+2026-07-19 16:41:20,616 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 inside the print
+2026-07-19 16:41:20,616 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 inside the print
+2026-07-19 16:41:29,627 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 exist the print
+2026-07-19 16:41:29,627 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 exist the print
+2026-07-19 16:41:50,876 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 inside the print
+2026-07-19 16:41:59,880 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 exist the print
+2026-07-19 16:41:59,881 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 inside the print
+2026-07-19 16:42:08,887 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 exist the print

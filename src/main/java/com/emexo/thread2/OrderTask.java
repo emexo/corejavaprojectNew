@@ -6,12 +6,13 @@ import lombok.extern.log4j.Log4j2;
 public class OrderTask implements Runnable{
     @Override
     public void run() {
-        log.info(Thread.currentThread().getName() + "- Start");
+        log.info(Thread.currentThread().getName() + " Started");
         try {
-            Thread.sleep(12000);
+            Thread.sleep(9000);
         } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+            log.error("Interrupted exception");
         }
-        log.info(Thread.currentThread().getName() + "- end");
+        log.info(Thread.currentThread().getName() + " End");
+
     }
 }

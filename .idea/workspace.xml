@@ -7,7 +7,24 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c39e1887-1991-4b5d-a548-61f701555dd6" name="Changes" comment="Adding update bank" />
+    <list default="true" id="c39e1887-1991-4b5d-a548-61f701555dd6" name="Changes" comment="Adding update bank">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/exception/FileNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/thread2/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/thread2/SynchronizedExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/thread2/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/inputFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/corejava.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/corejava.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/exception/ExceptionExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/exception/ExceptionExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/thread2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/thread2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/thread2/OrderTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/thread2/OrderTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/thread2/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/thread2/PaymentMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/thread2/RunnableWithLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/thread2/RunnableWithLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/file1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/file2.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,6 +188,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;emexo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/emexo/corejavaprojectNew.git&quot;,
+    &quot;accountId&quot;: &quot;cbb49b11-1218-4215-a0c1-13c2a6737190&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21/Contents/Home/lib/src.zip!/java.base/java/util/Date.java" root0="SKIP_INSPECTION" />
   </component>
@@ -184,6 +213,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2XhJwZte2vaw4xAsWoKkDauiKrQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -327,9 +359,11 @@
     &quot;Gradle.corejavaproject [:com.emexo.thread1.yield.YieldExample.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.thread1.yield.YieldExample1.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.thread2.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread2.Main1.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.thread2.OrderMain.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.thread2.PaymentMain.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.thread2.RunnableWithLambda.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread2.SynchronizedExample.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.thread2.TicketMain.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.variable.instancevariable.Employee.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.variable.staticvariable.Account.main()].executor&quot;: &quot;Run&quot;,
@@ -375,8 +409,10 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
     &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Applications/Projects/CoreJavaRepo/corejavaproject/src/main/resources&quot;,
@@ -412,13 +448,13 @@
       <command value="gradle clean build" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.com.emexo.oops.interface2.Main">
-    <configuration name="ConditionalStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.emexo.conditionalstatement.ConditionalStatement" />
+  <component name="RunManager" selected="Application.ExceptionExample2">
+    <configuration name="ExceptionExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.emexo.exception.ExceptionExample2" />
       <module name="corejavaproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.emexo.conditionalstatement.*" />
+          <option name="PATTERN" value="com.emexo.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -427,11 +463,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.emexo.string.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.emexo.thread2.Main" />
       <module name="corejavaproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.emexo.string.*" />
+          <option name="PATTERN" value="com.emexo.thread2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -439,12 +475,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.emexo.conditionalstatement.SwitchCase" />
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.emexo.thread2.Main1" />
       <module name="corejavaproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.emexo.conditionalstatement.*" />
+          <option name="PATTERN" value="com.emexo.thread2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -452,12 +488,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnaryOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.emexo.operators.UnaryOperator" />
+    <configuration name="RunnableWithLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.emexo.thread2.RunnableWithLambda" />
       <module name="corejavaproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.emexo.operators.*" />
+          <option name="PATTERN" value="com.emexo.thread2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -465,12 +501,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.emexo.oops.interface2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.emexo.oops.interface2.Main" />
+    <configuration name="SynchronizedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.emexo.thread2.SynchronizedExample" />
       <module name="corejavaproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.emexo.oops.interface2.*" />
+          <option name="PATTERN" value="com.emexo.thread2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -479,19 +515,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConditionalStatement" />
+      <item itemvalue="Application.ExceptionExample2" />
+      <item itemvalue="Application.Main1" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.SwitchCase" />
-      <item itemvalue="Application.UnaryOperator" />
-      <item itemvalue="Application.com.emexo.oops.interface2.Main" />
+      <item itemvalue="Application.RunnableWithLambda" />
+      <item itemvalue="Application.SynchronizedExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.emexo.oops.interface2.Main" />
-        <item itemvalue="Application.UnaryOperator" />
-        <item itemvalue="Application.SwitchCase" />
-        <item itemvalue="Application.ConditionalStatement" />
+        <item itemvalue="Application.SynchronizedExample" />
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.RunnableWithLambda" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ExceptionExample2" />
       </list>
     </recent_temporary>
   </component>
