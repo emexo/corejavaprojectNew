@@ -1,28 +1,11 @@
-2026-07-19 15:15:34,910 INFO c.e.t.SynchronizedExample [Thread-2] Thread-2 inside the print
-2026-07-19 15:15:34,910 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 inside the print
-2026-07-19 15:15:34,910 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 inside the print
-2026-07-19 15:15:56,686 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 inside the print
-2026-07-19 15:16:05,692 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 exist the print
-2026-07-19 15:16:05,694 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 inside the print
-2026-07-19 15:16:14,702 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 exist the print
-2026-07-19 15:16:14,708 INFO c.e.t.SynchronizedExample [Thread-2] Thread-2 inside the print
-2026-07-19 15:16:23,714 INFO c.e.t.SynchronizedExample [Thread-2] Thread-2 exist the print
-2026-07-19 16:39:17,319 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 inside the print
-2026-07-19 16:39:26,328 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 exist the print
-2026-07-19 16:39:26,330 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 inside the print
-2026-07-19 16:39:32,806 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 inside the print
-2026-07-19 16:39:32,806 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 inside the print
-2026-07-19 16:39:41,814 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 exist the print
-2026-07-19 16:39:41,814 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 exist the print
-2026-07-19 16:40:20,439 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 inside the print
-2026-07-19 16:40:29,447 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 exist the print
-2026-07-19 16:40:29,449 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 inside the print
-2026-07-19 16:40:38,456 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 exist the print
-2026-07-19 16:41:20,616 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 inside the print
-2026-07-19 16:41:20,616 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 inside the print
-2026-07-19 16:41:29,627 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 exist the print
-2026-07-19 16:41:29,627 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 exist the print
-2026-07-19 16:41:50,876 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 inside the print
-2026-07-19 16:41:59,880 INFO c.e.t.SynchronizedExample [Thread-0] Thread-0 exist the print
-2026-07-19 16:41:59,881 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 inside the print
-2026-07-19 16:42:08,887 INFO c.e.t.SynchronizedExample [Thread-1] Thread-1 exist the print
+2026-07-23 08:04:16,425 INFO c.e.c.l.Main [main] Employee(empId=1, empName=Regu)
+2026-07-23 08:08:57,615 INFO c.e.c.l.Main [main] Employee(empId=1, empName=Regu)
+2026-07-23 08:08:57,619 INFO c.e.c.l.Main [main] Employee(empId=2, empName=Raju)
+2026-07-23 08:09:12,669 INFO c.e.c.l.Main [main] Regu
+2026-07-23 08:09:12,675 INFO c.e.c.l.Main [main] Raju
+2026-07-23 08:11:38,020 INFO c.e.c.l.Main [main] REGU
+2026-07-23 08:11:38,023 INFO c.e.c.l.Main [main] RAJU
+2026-07-23 08:12:06,882 INFO c.e.c.l.Main [main] Employee(empId=1, empName=Regu)
+2026-07-23 08:12:06,884 INFO c.e.c.l.Main [main] Employee(empId=2, empName=Raju)
+2026-07-23 08:12:40,484 INFO c.e.c.l.Main [main] Employee(empId=1, empName=REGU)
+2026-07-23 08:12:40,488 INFO c.e.c.l.Main [main] Employee(empId=2, empName=RAJU)
