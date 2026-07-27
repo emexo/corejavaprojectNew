@@ -11,7 +11,7 @@ import java.util.TreeSet;
 public class Main {
     public static void main(String[] args) {
         Employee employee1 = new Employee();
-        employee1.setEmployeeId(1);
+        employee1.setEmployeeId(18);
         employee1.setEmployeeName("John Doe");
 
         Employee employee2 = new Employee();
@@ -19,14 +19,16 @@ public class Main {
         employee2.setEmployeeName("Jane Smith");
 
         Employee employee3 = new Employee();
-        employee3.setEmployeeId(1);
-        employee3.setEmployeeName("John Doe");
+        employee3.setEmployeeId(15);
+        employee3.setEmployeeName("John Doe88");
 
-        Set<Employee> employeeSet = new TreeSet<>(Comparator.comparing(Employee::getEmployeeId).reversed());
-        employeeSet.add(employee1);
-        employeeSet.add(employee2);
-        employeeSet.add(employee3);
+      Set<Employee> set = new TreeSet<>(Comparator.comparing(Employee::getEmployeeName));
+      set.add(employee1);
+      set.add(employee2);
+      set.add(employee3);
 
-        log.info(employeeSet);
+
+      log.info(set);
+
     }
 }

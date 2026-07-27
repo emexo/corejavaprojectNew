@@ -9,27 +9,21 @@ import java.util.Objects;
 @Getter
 @Setter
 @ToString
-public class Employee implements Comparable<Employee> {
+public class Employee   {
     private int employeeId;
     private String employeeName;
 
-    // overriding equals and hashCode to ensure proper comparison in HashSet
-
+    // override the hashcode and equals method
 
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
         Employee employee = (Employee) o;
-        return employeeId == employee.employeeId;
+        return employeeId == employee.employeeId && Objects.equals(employeeName, employee.employeeName);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hashCode(employeeId);
-    }
-
-    @Override
-    public int compareTo(Employee emp) {
-        return this.getEmployeeName().compareTo(emp.getEmployeeName());
+        return Objects.hash(employeeId, employeeName);
     }
 }

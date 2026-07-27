@@ -11,14 +11,17 @@ import java.util.TreeSet;
 public class SetExample {
     public static void main(String[] args) {
 
-        Set<String> set = new HashSet<>();
-        set.add("Java");
-        set.add("Python");
-        set.add("Java"); // Duplicate, will not be added
-        set.add("C++");
-        //set.add(null); // Adding null value
-       // set.add(null); // Duplicate null, will not be added
+       Set<String> set = new TreeSet<>();
+       set.add("chennai");
+       set.add("mumbai");
+       set.add("kolkata");
+       set.add("kolkata");
+       set.add("kolkata");
+       set.add("kolkata");
 
-        log.info(set);
+
+       log.info(set.size());
+
+       set.forEach(data -> log.info(data));
     }
 }
