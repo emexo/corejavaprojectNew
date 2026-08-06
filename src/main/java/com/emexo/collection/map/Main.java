@@ -18,9 +18,9 @@ public class Main {
         account.setAccountNo(456);
         account.setAccountName("Gary");
 
-        Account account1= new Account();
-        account1.setAccountNo(566);
-        account1.setAccountName("Natalia");
+        Account account1 = new Account();
+        account1.setAccountNo(456);
+        account1.setAccountName("Gary");
 
         Customer customer = new Customer();
         customer.setCustomerId("24234dsf");
@@ -34,16 +34,7 @@ public class Main {
         map.put(account, customer);
         map.put(account1, customer1);
 
-        // sort map by Customer name (value) and preserve order in a LinkedHashMap
-        List<Entry<Account, Customer>> entries = new ArrayList<>(map.entrySet());
-        entries.sort(Comparator.comparing(e -> e.getValue().getCustomerName()));
-
-        Map<Account, Customer> sortedByValue = new LinkedHashMap<>();
-        for (Entry<Account, Customer> e : entries) {
-            sortedByValue.put(e.getKey(), e.getValue());
-        }
-
-        // print sorted map
-        sortedByValue.forEach((acc, cus) -> log.info("Account:{} and customer:{}", acc, cus));
+        map.forEach((k, v) -> log.info("key:{} and value:{}", k, v));
     }
+
 }

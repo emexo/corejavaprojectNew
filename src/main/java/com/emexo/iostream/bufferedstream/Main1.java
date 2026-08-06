@@ -1,25 +1,27 @@
-package com.emexo.iostream.bytestream;
+package com.emexo.iostream.bufferedstream;
 
+import com.emexo.iostream.bytestream.Main;
 import lombok.extern.log4j.Log4j2;
 
-import java.awt.desktop.OpenURIEvent;
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
 @Log4j2
-public class Main {
+public class Main1 {
     public static void main(String[] args) {
         String inputFile = "/Applications/Projects/CoreJavaRepo/corejavaproject/src/main/resources/inputFile.txt";
         String outputFile = "/Applications/Projects/CoreJavaRepo/corejavaproject/src/main/resources/outputFile.txt";
 
-        Main main = new Main();
+        com.emexo.iostream.bytestream.Main main = new Main();
         main.read(inputFile, outputFile);
     }
 
 
     public void read(String inputFile, String outputFile){
-        try(FileInputStream inputStream = new FileInputStream(inputFile);
-        FileOutputStream outputStream = new FileOutputStream(outputFile)){
+        try(BufferedInputStream inputStream = new BufferedInputStream(new FileInputStream(inputFile));
+            BufferedOutputStream outputStream = new BufferedOutputStream(new FileOutputStream(outputFile))){
 
             int data;
 
@@ -31,5 +33,4 @@ public class Main {
             log.error("Exception while read/write the data from file");
         }
     }
-
 }

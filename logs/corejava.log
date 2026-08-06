@@ -1,32 +1,4 @@
-2026-07-27 08:07:05,294 INFO c.e.c.s.SetExample [main] 3
-2026-07-27 08:07:22,152 INFO c.e.c.s.SetExample [main] 4
-2026-07-27 08:07:35,248 INFO c.e.c.s.SetExample [main] 4
-2026-07-27 08:07:59,521 INFO c.e.c.s.SetExample [main] 4
-2026-07-27 08:07:59,527 INFO c.e.c.s.SetExample [main] [null, mumbai, kolkata, chennai]
-2026-07-27 08:07:59,528 INFO c.e.c.s.SetExample [main] [null, mumbai, kolkata, chennai]
-2026-07-27 08:07:59,528 INFO c.e.c.s.SetExample [main] [null, mumbai, kolkata, chennai]
-2026-07-27 08:07:59,529 INFO c.e.c.s.SetExample [main] [null, mumbai, kolkata, chennai]
-2026-07-27 08:08:29,612 INFO c.e.c.s.SetExample [main] 4
-2026-07-27 08:08:29,615 INFO c.e.c.s.SetExample [main] null
-2026-07-27 08:08:29,616 INFO c.e.c.s.SetExample [main] mumbai
-2026-07-27 08:08:29,616 INFO c.e.c.s.SetExample [main] kolkata
-2026-07-27 08:08:29,616 INFO c.e.c.s.SetExample [main] chennai
-2026-07-27 08:08:52,357 INFO c.e.c.s.SetExample [main] 4
-2026-07-27 08:08:52,361 INFO c.e.c.s.SetExample [main] chennai
-2026-07-27 08:08:52,361 INFO c.e.c.s.SetExample [main] mumbai
-2026-07-27 08:08:52,362 INFO c.e.c.s.SetExample [main] kolkata
-2026-07-27 08:08:52,362 INFO c.e.c.s.SetExample [main] null
-2026-07-27 08:09:27,823 INFO c.e.c.s.SetExample [main] 3
-2026-07-27 08:09:27,826 INFO c.e.c.s.SetExample [main] chennai
-2026-07-27 08:09:27,827 INFO c.e.c.s.SetExample [main] kolkata
-2026-07-27 08:09:27,827 INFO c.e.c.s.SetExample [main] mumbai
-2026-07-27 08:11:15,995 INFO c.e.c.s.Main [main] 3
-2026-07-27 08:11:33,399 INFO c.e.c.s.Main [main] 3
-2026-07-27 08:12:41,919 INFO c.e.c.s.Main [main] 3
-2026-07-27 08:15:28,598 INFO c.e.c.s.Main [main] 2
-2026-07-27 08:15:36,069 INFO c.e.c.s.Main [main] 3
-2026-07-27 08:15:43,461 INFO c.e.c.s.Main [main] 3
-2026-07-27 08:15:48,051 INFO c.e.c.s.Main [main] 2
-2026-07-27 08:20:28,507 INFO c.e.c.s.Main [main] 3
-2026-07-27 08:20:43,866 INFO c.e.c.s.Main [main] [Employee(employeeId=2, employeeName=Jane Smith), Employee(employeeId=15, employeeName=John Doe88), Employee(employeeId=18, employeeName=John Doe)]
-2026-07-27 08:21:07,222 INFO c.e.c.s.Main [main] [Employee(employeeId=2, employeeName=Jane Smith), Employee(employeeId=18, employeeName=John Doe), Employee(employeeId=15, employeeName=John Doe88)]
+2026-07-29 07:51:30,985 INFO c.e.c.m.MapExample [main] key:null and value:kolkata
+2026-07-29 07:51:30,994 INFO c.e.c.m.MapExample [main] key:kerala and value:trivandrum
+2026-07-29 07:51:30,994 INFO c.e.c.m.MapExample [main] key:karnataka and value:bangalore
+2026-07-29 07:51:30,994 INFO c.e.c.m.MapExample [main] key:tamilnadu and value:chennai

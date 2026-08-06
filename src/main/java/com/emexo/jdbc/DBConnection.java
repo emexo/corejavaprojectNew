@@ -11,8 +11,7 @@ import java.util.Properties;
 public class DBConnection {
     public static Connection getConnection(){
         Connection connection = null;
-        try(FileInputStream fileInputStream = new FileInputStream(
-                "/Applications/Projects/CoreJavaRepo/corejavaproject/src/main/resources/application.properties")){
+        try(FileInputStream fileInputStream = new FileInputStream("/Applications/Projects/CoreJavaRepo/corejavaproject/src/main/resources/application.properties")){
             Properties properties = new Properties();
             properties.load(fileInputStream);
 

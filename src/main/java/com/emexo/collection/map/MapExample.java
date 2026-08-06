@@ -8,24 +8,19 @@ import java.util.*;
 public class MapExample {
     public static void main(String[] args) {
         Map<String, String> map = new HashMap<>();
-        map.put("Tamilnadu", "Chennai");
-        map.put("Karnataka", "Bengaluru");
-        map.put("Karnataka", "BENGALORE");
-        map.put("Kerala", "Trivandrum");
-        map.put("AP", "Amaravathi");
- 
+        map.put("tamilnadu", "chennai"); // Entry
+        map.put("kerala", "trivandrum");
+        map.put("karnataka", "bengaluru");
+        map.put("karnataka", "bangalore");
+        map.put(null, "mumbai");
+        map.put(null, "kolkata");
 
-        // Sort the map by value (city) case-insensitively and preserve order
-        List<Map.Entry<String, String>> entries = new ArrayList<>(map.entrySet());
-        entries.sort(Map.Entry.comparingByValue(Comparator.nullsFirst(String.CASE_INSENSITIVE_ORDER)));
+        map.get("tamilnadu");
 
-        Map<String, String> sortedByValue = new LinkedHashMap<>();
-        for (Map.Entry<String, String> e : entries) {
-            sortedByValue.put(e.getKey(), e.getValue());
-        }
+       Set<Map.Entry<String, String>>  entrySet = map.entrySet();
 
-        // print sorted map
-        sortedByValue.forEach((state, city) -> log.info("State: {} -> City: {}", state, city));
-
+       for (Map.Entry<String, String> set: entrySet){
+           log.info("key:{} and value:{}", set.getKey(), set.getValue());
+       }
     }
 }
