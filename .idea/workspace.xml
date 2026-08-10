@@ -7,16 +7,18 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c39e1887-1991-4b5d-a548-61f701555dd6" name="Changes" comment="Set example in java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/iostream/bufferedstream/Main1.java" afterDir="false" />
+    <list default="true" id="c39e1887-1991-4b5d-a548-61f701555dd6" name="Changes" comment="IO Stream example">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/corejava.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/corejava.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/collection/map/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/collection/map/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/collection/map/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/collection/map/MapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/iostream/bytestream/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/iostream/bytestream/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/jdbc/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/jdbc/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/inputFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/inputFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/CustomerMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/ProductMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/TestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/employee.ser" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -444,39 +446,39 @@
       <command value="gradle clean build" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.com.emexo.iostream.bytestream.Main">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="CarParking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.emexo.thread1.semaphore.CarParking" />
+      <module name="corejavaproject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.emexo.thread1.semaphore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.emexo.thread1.countdownlatch.CountDownLatchDemo" />
+      <module name="corejavaproject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.emexo.thread1.countdownlatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.emexo.collection.set.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.emexo.serialization.Main" />
       <module name="corejavaproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.emexo.collection.set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.emexo.collection.map.MapExample" />
-      <module name="corejavaproject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.emexo.collection.map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.emexo.collection.set.SetExample" />
-      <module name="corejavaproject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.emexo.collection.set.*" />
+          <option name="PATTERN" value="com.emexo.serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -511,19 +513,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.com.emexo.iostream.bytestream.Main" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.MapExample" />
-      <item itemvalue="Application.SetExample" />
+      <item itemvalue="Application.CarParking" />
+      <item itemvalue="Application.CountDownLatchDemo" />
       <item itemvalue="Application.com.emexo.collection.map.Main" />
+      <item itemvalue="Application.com.emexo.iostream.bytestream.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CountDownLatchDemo" />
+        <item itemvalue="Application.CarParking" />
         <item itemvalue="Application.com.emexo.iostream.bytestream.Main" />
         <item itemvalue="Application.com.emexo.collection.map.Main" />
-        <item itemvalue="Application.MapExample" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SetExample" />
       </list>
     </recent_temporary>
   </component>
@@ -619,7 +621,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785120758270</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="IO Stream example">
+      <option name="closed" value="true" />
+      <created>1785983905308</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1785983905308</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -663,7 +673,8 @@
     <MESSAGE value="Added exception handing" />
     <MESSAGE value="Added arraylist" />
     <MESSAGE value="Set example in java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set example in java" />
+    <MESSAGE value="IO Stream example" />
+    <option name="LAST_COMMIT_MESSAGE" value="IO Stream example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

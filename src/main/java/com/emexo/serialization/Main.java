@@ -9,31 +9,20 @@ import java.io.ObjectOutputStream;
 
 @Log4j2
 public class Main {
-    public static final String fileName = "/Applications/Projects/CoreJavaRepo/corejavaproject/src/main/resources/account.ser";
+    static void main() throws Exception {
+        String file = "/Applications/Projects/CoreJavaRepo/corejavaproject/src/main/resources/employee.ser";
 
-    public static void main(String[] args) {
-        Main main = new Main();
-        Account account = new Account();
-        account.setAccountNo(34);
-        account.setAccountName("Dee");
-        main.serialize(fileName, account);
-        main.deserialize(fileName);
-    }
+        Employee employee = new Employee();
+        employee.setEmpId(2);
+        employee.setEmpName("Regu");
+        employee.setAddress("Bengaluru");
+        employee.setMob(93452345);
 
-    public void serialize(String fileName, Account account){
-        try(ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream(fileName))){
-            outputStream.writeObject(account);
-        }catch (Exception ex){
-            log.error("Exception while serialization", ex);
-        }
-    }
+        ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream(file));
+        outputStream.writeObject(employee);
 
-    public void deserialize(String fileName){
-        try(ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(fileName))){
-            Account account = (Account)objectInputStream.readObject();
-            log.info(account);
-        }catch (Exception ex){
-            log.info("Exception while deserialization", ex);
-        }
+        ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(file));
+        Employee employee1 = (Employee) objectInputStream.readObject();
+        log.info(employee1);
     }
 }

@@ -1,4 +1,1 @@
-2026-07-29 07:51:30,985 INFO c.e.c.m.MapExample [main] key:null and value:kolkata
-2026-07-29 07:51:30,994 INFO c.e.c.m.MapExample [main] key:kerala and value:trivandrum
-2026-07-29 07:51:30,994 INFO c.e.c.m.MapExample [main] key:karnataka and value:bangalore
-2026-07-29 07:51:30,994 INFO c.e.c.m.MapExample [main] key:tamilnadu and value:chennai
+2026-08-10 08:10:11,307 INFO c.e.s.Main [main] Employee(empId=2, empName=Regu, address=null, mob=93452345)
