@@ -7,18 +7,15 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c39e1887-1991-4b5d-a548-61f701555dd6" name="Changes" comment="IO Stream example">
+    <list default="true" id="c39e1887-1991-4b5d-a548-61f701555dd6" name="Changes" comment="Serialization example">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/corejava.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/corejava.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/CustomerMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/ProductMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/serialization/TestMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/employee.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/refelection/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/refelection/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/refelection/AccountMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/refelection/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/refelection/Loan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/refelection/LoanMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/refelection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/refelection/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -446,7 +443,7 @@
       <command value="gradle clean build" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.com.emexo.refelection.Main">
     <configuration name="CarParking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.emexo.thread1.semaphore.CarParking" />
       <module name="corejavaproject.main" />
@@ -486,19 +483,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.emexo.collection.map.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.emexo.collection.map.Main" />
-      <module name="corejavaproject.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.emexo.collection.map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="com.emexo.iostream.bytestream.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.emexo.iostream.bytestream.Main" />
       <module name="corejavaproject.main" />
@@ -512,20 +496,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.emexo.refelection.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.emexo.refelection.Main" />
+      <module name="corejavaproject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.emexo.refelection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.com.emexo.refelection.Main" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.CarParking" />
       <item itemvalue="Application.CountDownLatchDemo" />
-      <item itemvalue="Application.com.emexo.collection.map.Main" />
       <item itemvalue="Application.com.emexo.iostream.bytestream.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.emexo.refelection.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.CountDownLatchDemo" />
         <item itemvalue="Application.CarParking" />
         <item itemvalue="Application.com.emexo.iostream.bytestream.Main" />
-        <item itemvalue="Application.com.emexo.collection.map.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -629,7 +626,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785983905308</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Serialization example">
+      <option name="closed" value="true" />
+      <created>1786329676388</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1786329676388</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -674,7 +679,8 @@
     <MESSAGE value="Added arraylist" />
     <MESSAGE value="Set example in java" />
     <MESSAGE value="IO Stream example" />
-    <option name="LAST_COMMIT_MESSAGE" value="IO Stream example" />
+    <MESSAGE value="Serialization example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Serialization example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

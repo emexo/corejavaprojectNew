@@ -1,6 +1,5 @@
 package com.emexo.refelection;
 
-import lombok.extern.java.Log;
 import lombok.extern.log4j.Log4j2;
 
 import java.lang.reflect.Field;
@@ -8,35 +7,38 @@ import java.lang.reflect.Method;
 
 @Log4j2
 public class Main {
-    public static void main(String[] args) throws Exception {
-        Employee employee = new Employee();
-        Class<Employee> employeeClass = (Class<Employee>) employee.getClass();
+    static void main() throws Exception {
+        Account account = new Account();
 
-        Field field = employeeClass.getDeclaredField("employeeId");
-        field.setAccessible(true);
-        field.set(employee, 345);
-       log.info(field.get(employee));
+        Class accountClass = account.getClass();
 
-       Field field1 = employeeClass.getDeclaredField("employeeName");
-       field1.set(employee, "Joe");
-       log.info(field1.get(employee));
+        // access private variable
+       Field field = accountClass.getDeclaredField("accountNo");
+       field.setAccessible(true);
+       field.set(account, 22322);
 
-        Method method = employeeClass.getDeclaredMethod("getEmployeeId");
+       log.info(field.get(account));
+
+       // access public variable
+        Field field1 = accountClass.getDeclaredField("accountName");
+        field1.set(account, "Raghu");
+        log.info(field1.get(account));
+
+        // access private method
+        Method method = accountClass.getDeclaredMethod("getAccountNo", int.class);
         method.setAccessible(true);
-        method.invoke(employee);
+        int accNo = (int) method.invoke(account, 8999);
+        log.info(accNo);
 
-        Method method1 = employeeClass.getDeclaredMethod("getEmployeeName", String.class);
-        method1.invoke(employee, " Gadel");
+        // get the variables
+        Field[] fields = accountClass.getDeclaredFields();
+        for(Field field2: fields){
+            log.info(field2.getName());
+        }
 
-       Field[] fields =  employeeClass.getDeclaredFields();
-       for(Field field2: fields){
-           log.info(field2);
-       }
-
-       Method[] methods = employeeClass.getDeclaredMethods();
-       for(Method method2: methods){
-           log.info(method2);
-       }
-
+        Method[] methods = accountClass.getDeclaredMethods();
+        for(Method method1: methods){
+            log.info(method1.getName());
+        }
     }
 }

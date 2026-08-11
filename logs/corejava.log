@@ -1,1 +1,26 @@
-2026-08-10 08:10:11,307 INFO c.e.s.Main [main] Employee(empId=2, empName=Regu, address=null, mob=93452345)
+2026-08-11 07:44:42,180 INFO c.e.r.Main [main] 22322
+2026-08-11 07:49:45,081 INFO c.e.r.Main [main] 22322
+2026-08-11 07:49:45,085 INFO c.e.r.Main [main] Raghu
+2026-08-11 07:50:16,375 INFO c.e.r.Main [main] 22322
+2026-08-11 07:50:16,379 INFO c.e.r.Main [main] Raghu
+2026-08-11 07:53:44,457 INFO c.e.r.Main [main] 22322
+2026-08-11 07:53:44,464 INFO c.e.r.Main [main] Raghu
+2026-08-11 07:54:00,691 INFO c.e.r.Main [main] 22322
+2026-08-11 07:54:00,694 INFO c.e.r.Main [main] Raghu
+2026-08-11 07:54:00,696 INFO c.e.r.Main [main] 8999
+2026-08-11 07:57:11,397 INFO c.e.r.Main [main] 22322
+2026-08-11 07:57:11,401 INFO c.e.r.Main [main] Raghu
+2026-08-11 07:57:11,402 INFO c.e.r.Main [main] 8999
+2026-08-11 07:57:11,403 INFO c.e.r.Main [main] private int com.emexo.refelection.Account.accountNo
+2026-08-11 07:57:11,403 INFO c.e.r.Main [main] public java.lang.String com.emexo.refelection.Account.accountName
+2026-08-11 07:57:35,973 INFO c.e.r.Main [main] 22322
+2026-08-11 07:57:35,976 INFO c.e.r.Main [main] Raghu
+2026-08-11 07:57:35,978 INFO c.e.r.Main [main] 8999
+2026-08-11 07:57:35,978 INFO c.e.r.Main [main] accountNo
+2026-08-11 07:57:35,979 INFO c.e.r.Main [main] accountName
+2026-08-11 07:58:57,388 INFO c.e.r.Main [main] 22322
+2026-08-11 07:58:57,391 INFO c.e.r.Main [main] Raghu
+2026-08-11 07:58:57,393 INFO c.e.r.Main [main] 8999
+2026-08-11 07:58:57,394 INFO c.e.r.Main [main] accountNo
+2026-08-11 07:58:57,394 INFO c.e.r.Main [main] accountName
+2026-08-11 07:58:57,394 INFO c.e.r.Main [main] getAccountNo
