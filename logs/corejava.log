@@ -1,26 +1,25 @@
-2026-08-11 07:44:42,180 INFO c.e.r.Main [main] 22322
-2026-08-11 07:49:45,081 INFO c.e.r.Main [main] 22322
-2026-08-11 07:49:45,085 INFO c.e.r.Main [main] Raghu
-2026-08-11 07:50:16,375 INFO c.e.r.Main [main] 22322
-2026-08-11 07:50:16,379 INFO c.e.r.Main [main] Raghu
-2026-08-11 07:53:44,457 INFO c.e.r.Main [main] 22322
-2026-08-11 07:53:44,464 INFO c.e.r.Main [main] Raghu
-2026-08-11 07:54:00,691 INFO c.e.r.Main [main] 22322
-2026-08-11 07:54:00,694 INFO c.e.r.Main [main] Raghu
-2026-08-11 07:54:00,696 INFO c.e.r.Main [main] 8999
-2026-08-11 07:57:11,397 INFO c.e.r.Main [main] 22322
-2026-08-11 07:57:11,401 INFO c.e.r.Main [main] Raghu
-2026-08-11 07:57:11,402 INFO c.e.r.Main [main] 8999
-2026-08-11 07:57:11,403 INFO c.e.r.Main [main] private int com.emexo.refelection.Account.accountNo
-2026-08-11 07:57:11,403 INFO c.e.r.Main [main] public java.lang.String com.emexo.refelection.Account.accountName
-2026-08-11 07:57:35,973 INFO c.e.r.Main [main] 22322
-2026-08-11 07:57:35,976 INFO c.e.r.Main [main] Raghu
-2026-08-11 07:57:35,978 INFO c.e.r.Main [main] 8999
-2026-08-11 07:57:35,978 INFO c.e.r.Main [main] accountNo
-2026-08-11 07:57:35,979 INFO c.e.r.Main [main] accountName
-2026-08-11 07:58:57,388 INFO c.e.r.Main [main] 22322
-2026-08-11 07:58:57,391 INFO c.e.r.Main [main] Raghu
-2026-08-11 07:58:57,393 INFO c.e.r.Main [main] 8999
-2026-08-11 07:58:57,394 INFO c.e.r.Main [main] accountNo
-2026-08-11 07:58:57,394 INFO c.e.r.Main [main] accountName
-2026-08-11 07:58:57,394 INFO c.e.r.Main [main] getAccountNo
+2026-08-18 07:38:45,809 INFO c.e.t.OrderTaskWithRunnable [Thread-1] Thread-1 start
+2026-08-18 07:38:45,809 INFO c.e.t.OrderTaskWithRunnable [Thread-0] Thread-0 start
+2026-08-18 07:38:54,819 INFO c.e.t.OrderTaskWithRunnable [Thread-1] Thread-1 end
+2026-08-18 07:38:54,820 INFO c.e.t.OrderTaskWithRunnable [Thread-0] Thread-0 end
+2026-08-18 07:41:55,334 INFO c.e.t.TicketTask [Thread-1] Thread-1 start
+2026-08-18 07:41:55,334 INFO c.e.t.TicketTask [Thread-0] Thread-0 start
+2026-08-18 07:42:04,343 INFO c.e.t.TicketTask [Thread-1] Thread-1 end
+2026-08-18 07:42:04,345 INFO c.e.t.TicketTask [Thread-0] Thread-0 end
+2026-08-18 07:53:20,164 INFO c.e.t.ThreadJoin [Thread-0] Thread-0 start
+2026-08-18 07:53:20,164 INFO c.e.t.ThreadJoin [Thread-1] Thread-1 start
+2026-08-18 07:53:32,173 INFO c.e.t.ThreadJoin [Thread-0] Thread-0 end
+2026-08-18 07:53:32,174 INFO c.e.t.ThreadJoin [Thread-1] Thread-1 end
+2026-08-18 07:54:20,007 INFO c.e.t.ThreadJoin [Thread-0] Thread-0 start
+2026-08-18 07:54:32,016 INFO c.e.t.ThreadJoin [Thread-0] Thread-0 end
+2026-08-18 07:54:32,020 INFO c.e.t.ThreadJoin [Thread-1] Thread-1 start
+2026-08-18 07:54:44,026 INFO c.e.t.ThreadJoin [Thread-1] Thread-1 end
+2026-08-18 07:56:38,838 INFO c.e.t.Main [main] main start
+2026-08-18 07:56:38,841 INFO c.e.t.OrderTask [main] main start
+2026-08-18 07:56:47,847 INFO c.e.t.OrderTask [main] main end
+2026-08-18 07:56:47,851 INFO c.e.t.Main [main] main end
+2026-08-18 07:56:47,851 INFO c.e.t.OrderTask [Thread-1] Thread-1 start
+2026-08-18 07:56:56,856 INFO c.e.t.OrderTask [Thread-1] Thread-1 end
+2026-08-18 07:58:41,217 INFO c.e.t.Main [main] main start
+2026-08-18 07:58:41,223 INFO c.e.t.OrderTask [Thread-0] Thread-0 start
+2026-08-18 07:58:50,229 INFO c.e.t.OrderTask [Thread-0] Thread-0 end

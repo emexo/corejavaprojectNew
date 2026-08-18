@@ -1,15 +1,19 @@
 package com.emexo.enum1;
 
-import lombok.extern.log4j.Log4j2;
+import lombok.Getter;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-@Log4j2
+@Getter
 public class Main {
-    public static void main(String[] args) {
-       log.info(Region.APAC);
-       log.info(Region.APAC.getRegion());
+    private static final Logger log = LogManager.getLogger(Main.class);
 
-       for (Region region: Region.values()){
-           log.info(region);
-       }
+    static void main() {
+        Report report = new Report();
+        report.setRegion("APAC");
+        report.setRunType(RunType.EOD);
+
+
+        log.info(report);
     }
 }
