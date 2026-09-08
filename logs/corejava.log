@@ -1,25 +1,21 @@
-2026-08-18 07:38:45,809 INFO c.e.t.OrderTaskWithRunnable [Thread-1] Thread-1 start
-2026-08-18 07:38:45,809 INFO c.e.t.OrderTaskWithRunnable [Thread-0] Thread-0 start
-2026-08-18 07:38:54,819 INFO c.e.t.OrderTaskWithRunnable [Thread-1] Thread-1 end
-2026-08-18 07:38:54,820 INFO c.e.t.OrderTaskWithRunnable [Thread-0] Thread-0 end
-2026-08-18 07:41:55,334 INFO c.e.t.TicketTask [Thread-1] Thread-1 start
-2026-08-18 07:41:55,334 INFO c.e.t.TicketTask [Thread-0] Thread-0 start
-2026-08-18 07:42:04,343 INFO c.e.t.TicketTask [Thread-1] Thread-1 end
-2026-08-18 07:42:04,345 INFO c.e.t.TicketTask [Thread-0] Thread-0 end
-2026-08-18 07:53:20,164 INFO c.e.t.ThreadJoin [Thread-0] Thread-0 start
-2026-08-18 07:53:20,164 INFO c.e.t.ThreadJoin [Thread-1] Thread-1 start
-2026-08-18 07:53:32,173 INFO c.e.t.ThreadJoin [Thread-0] Thread-0 end
-2026-08-18 07:53:32,174 INFO c.e.t.ThreadJoin [Thread-1] Thread-1 end
-2026-08-18 07:54:20,007 INFO c.e.t.ThreadJoin [Thread-0] Thread-0 start
-2026-08-18 07:54:32,016 INFO c.e.t.ThreadJoin [Thread-0] Thread-0 end
-2026-08-18 07:54:32,020 INFO c.e.t.ThreadJoin [Thread-1] Thread-1 start
-2026-08-18 07:54:44,026 INFO c.e.t.ThreadJoin [Thread-1] Thread-1 end
-2026-08-18 07:56:38,838 INFO c.e.t.Main [main] main start
-2026-08-18 07:56:38,841 INFO c.e.t.OrderTask [main] main start
-2026-08-18 07:56:47,847 INFO c.e.t.OrderTask [main] main end
-2026-08-18 07:56:47,851 INFO c.e.t.Main [main] main end
-2026-08-18 07:56:47,851 INFO c.e.t.OrderTask [Thread-1] Thread-1 start
-2026-08-18 07:56:56,856 INFO c.e.t.OrderTask [Thread-1] Thread-1 end
-2026-08-18 07:58:41,217 INFO c.e.t.Main [main] main start
-2026-08-18 07:58:41,223 INFO c.e.t.OrderTask [Thread-0] Thread-0 start
-2026-08-18 07:58:50,229 INFO c.e.t.OrderTask [Thread-0] Thread-0 end
+2026-09-08 08:23:36,215 INFO c.e.t.OrderTask [pool-2-thread-1] pool-2-thread-1 start
+2026-09-08 08:23:36,215 INFO c.e.t.OrderTask [pool-2-thread-2] pool-2-thread-2 start
+2026-09-08 08:23:36,215 INFO c.e.t.OrderTask [pool-2-thread-3] pool-2-thread-3 start
+2026-09-08 08:23:48,227 INFO c.e.t.OrderTask [pool-2-thread-2] pool-2-thread-2 end
+2026-09-08 08:23:48,227 INFO c.e.t.OrderTask [pool-2-thread-1] pool-2-thread-1 end
+2026-09-08 08:23:48,227 INFO c.e.t.OrderTask [pool-2-thread-3] pool-2-thread-3 end
+2026-09-08 08:23:48,239 INFO c.e.t.OrderTask [pool-2-thread-1] pool-2-thread-1 start
+2026-09-08 08:23:48,239 INFO c.e.t.OrderTask [pool-2-thread-3] pool-2-thread-3 start
+2026-09-08 08:23:48,239 INFO c.e.t.OrderTask [pool-2-thread-2] pool-2-thread-2 start
+2026-09-08 08:24:00,245 INFO c.e.t.OrderTask [pool-2-thread-3] pool-2-thread-3 end
+2026-09-08 08:24:00,245 INFO c.e.t.OrderTask [pool-2-thread-2] pool-2-thread-2 end
+2026-09-08 08:24:00,245 INFO c.e.t.OrderTask [pool-2-thread-1] pool-2-thread-1 end
+2026-09-08 08:24:00,249 INFO c.e.t.OrderTask [pool-2-thread-3] pool-2-thread-3 start
+2026-09-08 08:24:12,254 INFO c.e.t.OrderTask [pool-2-thread-3] pool-2-thread-3 end
+2026-09-08 08:24:12,267 INFO c.e.t.OrderMain [main] 1 : iphone : 90000.4
+2026-09-08 08:24:12,269 INFO c.e.t.OrderMain [main] 4 : macbook : 4000.4
+2026-09-08 08:24:12,270 INFO c.e.t.OrderMain [main] 4 : oneplus : 6000.4
+2026-09-08 08:24:12,270 INFO c.e.t.OrderMain [main] 4 : Mi : 9000.4
+2026-09-08 08:24:12,270 INFO c.e.t.OrderMain [main] 5 : Samsung : 70000.4
+2026-09-08 08:24:12,271 INFO c.e.t.OrderMain [main] 5 : google : 60000.4
+2026-09-08 08:24:12,271 INFO c.e.t.OrderMain [main] 5 : iphone : 779678.7

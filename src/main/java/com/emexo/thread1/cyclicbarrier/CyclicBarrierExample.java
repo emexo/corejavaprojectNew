@@ -20,6 +20,8 @@ public class CyclicBarrierExample {
         t2.start();
         t3.start();
 
+        cb.reset();
+
 
 
     }

@@ -10,8 +10,6 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Counter {
     private AtomicInteger value = new AtomicInteger();
 
-
-
     public  void increment() {
        value.incrementAndGet();
     }

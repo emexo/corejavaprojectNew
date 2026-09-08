@@ -5,15 +5,21 @@ import lombok.extern.log4j.Log4j2;
 @Log4j2
 public class PrimitiveDataType {
 
-    public int add(int a, int b) {
-        return a + b;
+    private Byte byteValue;
+    private Short shortValue;
+
+    public PrimitiveDataType(Byte byteValue, Short shortValue){
+        this.byteValue = byteValue;
+        this.shortValue = shortValue;
+    }
+
+    public void print(){
+        log.info("byte value:{} and short value:{}", byteValue, shortValue);
     }
 
     static void main() {
-        PrimitiveDataType primitiveDataType = new PrimitiveDataType();
-        Integer a = 10;
-        Integer b = 20;
-        Integer result = primitiveDataType.add(a, b);
-        log.info("The sum of {} and {} is {}", a, b, result);
+        Integer i = 90;
+        PrimitiveDataType primitiveDataType = new PrimitiveDataType(i.byteValue(), i.shortValue());
+        primitiveDataType.print();
     }
 }
