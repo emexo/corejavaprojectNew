@@ -16,6 +16,11 @@ public class BaseModelCar {
       log.info("Base model engine");
     }
 
+    public Number getEngine(String engineType){
+        log.info("Engine TYpe:{}", engineType);
+        return null;
+    }
+
     public void getCarColor(){
         log.info("White");
     }

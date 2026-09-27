@@ -7,12 +7,10 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c39e1887-1991-4b5d-a548-61f701555dd6" name="Changes" comment="Abstract class example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/BaseModelCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/MidVariantCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/PetrolCar.java" beforeDir="false" />
+    <list default="true" id="c39e1887-1991-4b5d-a548-61f701555dd6" name="Changes" comment="inheritance class example">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/BaseModelCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/BaseModelCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/MidVariantCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/MidVariantCar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -679,7 +677,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790483119556</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="inheritance class example">
+      <option name="closed" value="true" />
+      <created>1790484820462</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1790484820462</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -729,7 +735,8 @@
     <MESSAGE value="thread example" />
     <MESSAGE value="Executor example" />
     <MESSAGE value="Abstract class example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstract class example" />
+    <MESSAGE value="inheritance class example" />
+    <option name="LAST_COMMIT_MESSAGE" value="inheritance class example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

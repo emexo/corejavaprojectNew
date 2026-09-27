@@ -12,6 +12,12 @@ public class MidVariantCar  extends  BaseModelCar{
         this.features = features;
     }
 
+    @Override
+    public Integer getEngine(String engineType){
+        log.info("Engine TYpe:{}", engineType);
+        return null;
+    }
+
     public void getMidVariantCar(){
         getEngine();
         getCarColor();
