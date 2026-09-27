@@ -7,48 +7,12 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c39e1887-1991-4b5d-a548-61f701555dd6" name="Changes" comment="Executor example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java8/lambda/Print.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java8/lambda/PrintMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/loopingstatement/LoopingStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/abstract1/ApacReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/abstract1/Report.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface1/ElectricCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface1/PetrolCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/corejava.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/corejava.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/concurrentcollection/CopyOnWriteArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/concurrentcollection/CopyOnWriteArrayListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/conditionalstatement/ConditionalStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/conditionalstatement/ConditionalStatement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java10/LocalVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java10/LocalVariable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java11/StringIsBlank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java11/StringIsBlank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java8/datetime/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java8/datetime/TestMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java8/predicate/TestPredicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java8/predicate/TestPredicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java8/stream/StudentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java8/stream/StudentMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java9/ImmutableCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java9/ImmutableCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java9/TakeAndDropWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java9/TakeAndDropWhile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java9/TakeWhileAndDropWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java9/TakeWhileAndDropWhile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/loopingstatement/LoopingExample1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/loopingstatement/LoopingStatement2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/loopingstatement/LoopingStatementExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/loopingstatement/WhileLoopExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/abstract1/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/abstract1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/abstract1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/abstract1/SavingAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface1/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface1/Animal1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface1/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface2/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface2/Animal1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface2/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/operators/UnaryOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/operators/UnaryOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/string/MutableString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/string/MutableString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/string/StringComparision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/string/StringComparision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/string/StringExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/string/StringExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/thread3/OrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/thread3/OrderMain.java" afterDir="false" />
+    <list default="true" id="c39e1887-1991-4b5d-a548-61f701555dd6" name="Changes" comment="Abstract class example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/BaseModelCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/MidVariantCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/PetrolCar.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -707,7 +671,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788836135682</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Abstract class example">
+      <option name="closed" value="true" />
+      <created>1790483119556</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1790483119556</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -756,7 +728,8 @@
     <MESSAGE value="reflection example" />
     <MESSAGE value="thread example" />
     <MESSAGE value="Executor example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Executor example" />
+    <MESSAGE value="Abstract class example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstract class example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
