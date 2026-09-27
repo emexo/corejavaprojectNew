@@ -1,21 +1,7 @@
-2026-09-08 08:23:36,215 INFO c.e.t.OrderTask [pool-2-thread-1] pool-2-thread-1 start
-2026-09-08 08:23:36,215 INFO c.e.t.OrderTask [pool-2-thread-2] pool-2-thread-2 start
-2026-09-08 08:23:36,215 INFO c.e.t.OrderTask [pool-2-thread-3] pool-2-thread-3 start
-2026-09-08 08:23:48,227 INFO c.e.t.OrderTask [pool-2-thread-2] pool-2-thread-2 end
-2026-09-08 08:23:48,227 INFO c.e.t.OrderTask [pool-2-thread-1] pool-2-thread-1 end
-2026-09-08 08:23:48,227 INFO c.e.t.OrderTask [pool-2-thread-3] pool-2-thread-3 end
-2026-09-08 08:23:48,239 INFO c.e.t.OrderTask [pool-2-thread-1] pool-2-thread-1 start
-2026-09-08 08:23:48,239 INFO c.e.t.OrderTask [pool-2-thread-3] pool-2-thread-3 start
-2026-09-08 08:23:48,239 INFO c.e.t.OrderTask [pool-2-thread-2] pool-2-thread-2 start
-2026-09-08 08:24:00,245 INFO c.e.t.OrderTask [pool-2-thread-3] pool-2-thread-3 end
-2026-09-08 08:24:00,245 INFO c.e.t.OrderTask [pool-2-thread-2] pool-2-thread-2 end
-2026-09-08 08:24:00,245 INFO c.e.t.OrderTask [pool-2-thread-1] pool-2-thread-1 end
-2026-09-08 08:24:00,249 INFO c.e.t.OrderTask [pool-2-thread-3] pool-2-thread-3 start
-2026-09-08 08:24:12,254 INFO c.e.t.OrderTask [pool-2-thread-3] pool-2-thread-3 end
-2026-09-08 08:24:12,267 INFO c.e.t.OrderMain [main] 1 : iphone : 90000.4
-2026-09-08 08:24:12,269 INFO c.e.t.OrderMain [main] 4 : macbook : 4000.4
-2026-09-08 08:24:12,270 INFO c.e.t.OrderMain [main] 4 : oneplus : 6000.4
-2026-09-08 08:24:12,270 INFO c.e.t.OrderMain [main] 4 : Mi : 9000.4
-2026-09-08 08:24:12,270 INFO c.e.t.OrderMain [main] 5 : Samsung : 70000.4
-2026-09-08 08:24:12,271 INFO c.e.t.OrderMain [main] 5 : google : 60000.4
-2026-09-08 08:24:12,271 INFO c.e.t.OrderMain [main] 5 : iphone : 779678.7
+2026-09-25 07:44:42,001 INFO c.e.j.j.StringRepeat [main] HIHIHIHIHI
+2026-09-25 07:46:16,066 INFO c.e.j.j.StringIsBlank [main] 1
+2026-09-25 07:46:16,071 INFO c.e.j.j.StringIsBlank [main] false
+2026-09-25 07:48:45,027 INFO c.e.j.j.StringIsBlank [main] 1
+2026-09-25 07:48:45,030 INFO c.e.j.j.StringIsBlank [main] false
+2026-09-25 07:48:45,030 INFO c.e.j.j.StringIsBlank [main] true
+2026-09-25 07:58:12,801 INFO c.e.j.j.StringLines [main] [apple, apricot]

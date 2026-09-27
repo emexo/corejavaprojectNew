@@ -10,7 +10,7 @@ public class ImmutableCollection
     {
         List<String> namesList = List.of("Lokesh", "Amit", "John");
 
-        //namesList.add("Brian"); // This will throw UnsupportedOperationException because the list is immutable.
+        namesList.add("Brian"); // This will throw UnsupportedOperationException because the list is immutable.
 
         System.out.println(namesList);
  

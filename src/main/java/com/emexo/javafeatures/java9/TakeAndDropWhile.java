@@ -13,7 +13,7 @@ public class TakeAndDropWhile {
         // apply takeWhile to take all the numbers
         // matches passed predicate
         List<Integer> list
-                = stream.dropWhile(i -> i % 2 == 0 )
+                = stream.takeWhile(i -> i % 2 == 0 )
                 .collect(Collectors.toList());
 
         // print list

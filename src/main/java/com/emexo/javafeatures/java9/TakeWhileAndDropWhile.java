@@ -12,15 +12,16 @@ import java.util.Set;
 public class TakeWhileAndDropWhile {
     public static void main(String[] args) {
         //take while
-        Set<Integer> numbers = Set.of(1,2,3,4,5,6,7,8);
-        numbers.stream()
+        List<Integer> numbers = List.of(1,2,3,4,5,6,7,8);
+       List<Integer> integers = numbers.stream()
                 .takeWhile(x -> x < 6)
-                .forEach(System.out :: print);  // 1234
+                .toList(); // 1234
 
-        System.out.println();
+        //System.out.println(integers);
         List<Integer> numbers1 = List.of(1,2,3,4,5,6,7,8);
-        numbers1.stream()
+       List<Integer> integers1 = numbers1.stream()
                 .dropWhile(x -> x < 5)
-                .forEach(System.out :: print);  //5678
+                .toList();
+        System.out.println(integers1);
     }
 }

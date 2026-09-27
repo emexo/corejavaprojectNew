@@ -5,33 +5,40 @@ import lombok.extern.log4j.Log4j2;
 @Log4j2
 public class ConditionalStatement {
 
-    public static void main() {
-
-        ConditionalStatement conditionalStatement = new ConditionalStatement();
-        conditionalStatement.transfer(1234567890L, 9876543210L, 1000.00);
+    static void main() {
+        ConditionalStatement statement = new ConditionalStatement();
+        String res = statement.orderFood1("dosa1");
+        log.info(res);
     }
 
-    public void transfer(long fromAccount, long toAccount, double amount){
-        double balance = 500.00; // Assume this is the balance of the fromAccount
 
-        if(balance>= amount) {
-            log.info("Money has been transferred from account {} to account {} with amount {}", fromAccount, toAccount, amount);
-        } else {
-            log.info("Insufficient balance in account {} to transfer amount {}", fromAccount, amount);
+    public String orderFood(String food ) { // switch statement
+        String response;
+        switch (food){
+            case "idly":
+                response = "ordered idly";
+                break;
+            case "dosa":
+                response = "ordered dosa";
+                break;
+            default:
+                response = "Food not available at this time";
+                break;
         }
+
+        return response;
     }
 
-    public void transfer1(long fromAccount, long toAccount, double amount){
-        double balance = 500.00; // Assume this is the balance of the fromAccount
-
-        if(balance< amount) {
-            log.info("Insufficient balance in account {} to transfer amount {}", fromAccount, amount);
-
-        } else if(balance == amount){
-            log.info("Exact balance matched for account {} to transfer amount {}", fromAccount, amount);
-        }
-        else {
-            log.info("Money has been transferred from account {} to account {} with amount {}", fromAccount, toAccount, amount);
-        }
+    public String orderFood1(String food){
+        return switch (food){ // switch expression from 14
+            case "idly"-> "ordered idly";
+            case "dosa" -> {
+               String val1 = "Ordered food";
+               String val2 = " dosa";
+               String res = val1.concat(val2);
+               yield res;
+            }
+            default -> "food not availble";
+        };
     }
 }

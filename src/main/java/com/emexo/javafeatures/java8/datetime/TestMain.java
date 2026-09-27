@@ -6,12 +6,16 @@ import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.time.temporal.TemporalUnit;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 @Log4j2
 public class TestMain {
     public static void main(String[] args) {
+
+
         log.info(LocalDate.now());
 
         log.info(LocalDate.of(2026,05,21));
@@ -24,6 +28,7 @@ public class TestMain {
 
         log.info(LocalDate.now().minusDays(1));
         log.info(LocalDate.now().minusMonths(1));
+        log.info(LocalDate.now().minusYears(1));
         log.info(LocalDate.now().minus(1,ChronoUnit.DAYS));
 
         log.info(LocalDate.now().getDayOfWeek());

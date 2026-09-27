@@ -26,10 +26,9 @@ public class StudentMain {
         // top 3 students with score >= 70
        List<Student> goodStudents = listStudents.stream()
                .filter(student -> student.getScore()>=70)
-               .parallel()
-               .sorted(Comparator.comparing(Student::getName).reversed())
+               .sorted(Comparator.comparing(Student::getScore).reversed())
                .limit(3)
-               .collect(Collectors.toList());
+               .toList();
 
    List<String> names =   listStudents.stream()
                .map(student -> student.getName())

@@ -17,7 +17,7 @@ public class TestPredicates {
 
     List<Employee> employeeList = List.of();
 
-    List<Employee> maleEmployeeList = employeeList.stream().filter(isAdult).toList();
+    List<Employee> maleEmployeeList = employeeList.stream().filter(isAdultAndMale).toList();
     List<Employee> adultMalesList = employeeList.stream()
         .filter(x -> isAdultMale.test(x.getAge(), x.getName()))
         .toList();

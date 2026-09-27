@@ -7,15 +7,22 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.CopyOnWriteArraySet;
 
+
 @Log4j2
 public class CopyOnWriteArrayListExample {
     public static void main(String[] args) {
-       Set<String> list = new HashSet<>();
-       list.add("Chennai");
-       list.add("Mumbai");
-       list.add("Bangalore");
+        HashMap<String, String> map = new HashMap<>();
+        map.put("TN", "Chennai"); // Entry
+        map.put("KL", "Trivandrum");
 
-       Collections.synchronizedSet(list);
-       log.info(list);
+      Map<String, String> unmodifiableMap =  Collections.unmodifiableMap(map);
+
+        unmodifiableMap.put("KA", "Bangalore");
+
+        log.info(unmodifiableMap.size());
+
+        // segment 1
+
+        // segment 2
     }
 }

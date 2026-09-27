@@ -5,22 +5,24 @@ import lombok.extern.log4j.Log4j2;
 @Log4j2
 public class StringComparision {
     public static void main(String[] args) {
+        String str1 = "amit"; // string pool
+        String str2 = new String("amit"); // heap area
 
-        String country = "india";
-        String country1 = new String("komala");
-
-        StringComparision stringComparision = new StringComparision();
-        stringComparision.compareWithDoubleEquals(country1, country);
-
+        StringComparision comparision = new StringComparision();
+         String response = comparision.compare(str1, str2);
+         log.info("Response:{}", response);
     }
 
-    public void compareWithDoubleEquals(String str1, String str2){
-        if(str1.compareTo(str2) == 0){
-            log.info("Both strings are equal str1: {} and str2: {}", str1, str2);
-        } else {
-            log.info("Both strings are not equal ");
+
+    public String compare(String str1, String str2) {
+        String response;
+        if (str1.compareTo(str2) == 0) {
+            response = "Both the strings are equal";
+        } else{
+            response = "Both the strings are not equal";
         }
-    }
 
+        return response;
+    }
 
 }

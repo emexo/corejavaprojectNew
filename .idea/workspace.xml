@@ -7,20 +7,48 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c39e1887-1991-4b5d-a548-61f701555dd6" name="Changes" comment="thread example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/thread3/OrderMain.java" afterDir="false" />
+    <list default="true" id="c39e1887-1991-4b5d-a548-61f701555dd6" name="Changes" comment="Executor example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java8/lambda/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java8/lambda/PrintMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/loopingstatement/LoopingStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/abstract1/ApacReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/abstract1/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface1/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface1/PetrolCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/corejava.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/corejava.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/primitivedatatype/PrimitiveDataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/primitivedatatype/PrimitiveDataType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/thread/automicvariable/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/thread/automicvariable/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/thread1/countdownlatch/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/thread1/countdownlatch/CountDownLatchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/thread1/cyclicbarrier/CyclicBarrierExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/thread1/cyclicbarrier/CyclicBarrierExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/thread3/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/thread3/Main1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/thread3/OrderTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/thread3/OrderTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/thread3/OrderTaskWithRunnable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/thread3/ThreadJoin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/thread3/TicketTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/concurrentcollection/CopyOnWriteArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/concurrentcollection/CopyOnWriteArrayListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/conditionalstatement/ConditionalStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/conditionalstatement/ConditionalStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java10/LocalVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java10/LocalVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java11/StringIsBlank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java11/StringIsBlank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java8/datetime/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java8/datetime/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java8/predicate/TestPredicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java8/predicate/TestPredicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java8/stream/StudentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java8/stream/StudentMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java9/ImmutableCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java9/ImmutableCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java9/TakeAndDropWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java9/TakeAndDropWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java9/TakeWhileAndDropWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java9/TakeWhileAndDropWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/loopingstatement/LoopingExample1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/loopingstatement/LoopingStatement2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/loopingstatement/LoopingStatementExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/loopingstatement/WhileLoopExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/abstract1/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/abstract1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/abstract1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/abstract1/SavingAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface1/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface1/Animal1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface1/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface2/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface2/Animal1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface2/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/interface2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/operators/UnaryOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/operators/UnaryOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/string/MutableString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/string/MutableString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/string/StringComparision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/string/StringComparision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/string/StringExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/string/StringExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/thread3/OrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/thread3/OrderMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,9 +202,9 @@
       <list>
         <option value="Record" />
         <option value="package-info" />
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -267,6 +295,7 @@
     &quot;Gradle.corejavaproject [:com.emexo.iostream.bufferedstream.Main.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.iostream.bytestream.Main.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.iostream.characterstream.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java10.LocalVariable.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java11.ConvertToArray.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java11.OptionalExample.main()].executor&quot;: &quot;Debug&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java11.ReadFile.main()].executor&quot;: &quot;Run&quot;,
@@ -283,15 +312,18 @@
     &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java12.TeeingExample1.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java14.TestMain.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java21.BankingVirtualThreadExecutor.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java8.datetime.TestMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java8.datetime.TestMain.main()].executor&quot;: &quot;Debug&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java8.lambda.AdditionMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java8.lambda.PrintMain.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java8.lambda1.PrintMain.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java8.stream.StudentMain.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java9.ImmutableCollection.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java9.TakeAndDropWhile.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.javafeatures.java9.TakeWhileAndDropWhile.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.jdbc.DBConnection.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.jdbc.JDBCMain.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.jdbc.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.loopingstatement.LoopingStatement.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.loopingstatement.LoopingStatementExample.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.loopingstatement.NestedForLoop.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.method.Account.main()].executor&quot;: &quot;Run&quot;,
@@ -328,6 +360,7 @@
     &quot;Gradle.corejavaproject [:com.emexo.thread.readwritelock.ReadWriteExample.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.thread.reentrantlock.ReentrantExample.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.thread.starvation.StarvationExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread.threadlocalvariable.LambdaExpression.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.thread.threadlocalvariable.TestMain.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.thread.volatile1.VolatileMain.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.thread1.Main.main()].executor&quot;: &quot;Run&quot;,
@@ -370,6 +403,7 @@
     &quot;Gradle.corejavaproject [:com.emexo.thread2.TicketMain.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.thread3.Main.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.thread3.Main1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.corejavaproject [:com.emexo.thread3.OrderMain.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.thread3.OrderTaskWithRunnable.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.thread3.ThreadJoin.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.corejavaproject [:com.emexo.variable.instancevariable.Employee.main()].executor&quot;: &quot;Run&quot;,
@@ -425,7 +459,8 @@
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Applications/Projects/CoreJavaRepo/corejavaproject/src/main/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Applications/Projects/CoreJavaRepo/corejavaproject/module/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.3908046&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
@@ -457,13 +492,13 @@
       <command value="gradle clean build" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.OrderMain">
-    <configuration name="OrderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.emexo.thread3.OrderMain" />
+  <component name="RunManager" selected="Application.StringLines">
+    <configuration name="LocalVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.emexo.javafeatures.java10.LocalVariable" />
       <module name="corejavaproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.emexo.thread3.*" />
+          <option name="PATTERN" value="com.emexo.javafeatures.java10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -471,12 +506,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimitiveDataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.emexo.primitivedatatype.PrimitiveDataType" />
+    <configuration name="StringIsBlank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.emexo.javafeatures.java11.StringIsBlank" />
       <module name="corejavaproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.emexo.primitivedatatype.*" />
+          <option name="PATTERN" value="com.emexo.javafeatures.java11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -484,12 +519,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.emexo.thread.blockingqueue.ProducerConsumerExample" />
+    <configuration name="StringLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.emexo.javafeatures.java11.StringLines" />
       <module name="corejavaproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.emexo.thread.blockingqueue.*" />
+          <option name="PATTERN" value="com.emexo.javafeatures.java11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -497,12 +532,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.emexo.thread.automicvariable.ThreadsTest" />
+    <configuration name="StringRepeat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.emexo.javafeatures.java11.StringRepeat" />
       <module name="corejavaproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.emexo.thread.automicvariable.*" />
+          <option name="PATTERN" value="com.emexo.javafeatures.java11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -510,12 +545,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.emexo.thread.volatile1.VolatileMain" />
+    <configuration name="StringTrim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.emexo.javafeatures.java11.StringTrim" />
       <module name="corejavaproject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.emexo.thread.volatile1.*" />
+          <option name="PATTERN" value="com.emexo.javafeatures.java11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -524,19 +559,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.OrderMain" />
-      <item itemvalue="Application.PrimitiveDataType" />
-      <item itemvalue="Application.ProducerConsumerExample" />
-      <item itemvalue="Application.ThreadsTest" />
-      <item itemvalue="Application.VolatileMain" />
+      <item itemvalue="Application.StringIsBlank" />
+      <item itemvalue="Application.StringLines" />
+      <item itemvalue="Application.StringRepeat" />
+      <item itemvalue="Application.StringTrim" />
+      <item itemvalue="Application.LocalVariable" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OrderMain" />
-        <item itemvalue="Application.PrimitiveDataType" />
-        <item itemvalue="Application.ThreadsTest" />
-        <item itemvalue="Application.VolatileMain" />
-        <item itemvalue="Application.ProducerConsumerExample" />
+        <item itemvalue="Application.StringLines" />
+        <item itemvalue="Application.StringTrim" />
+        <item itemvalue="Application.StringIsBlank" />
+        <item itemvalue="Application.StringRepeat" />
+        <item itemvalue="Application.LocalVariable" />
       </list>
     </recent_temporary>
   </component>
@@ -664,7 +699,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787021014701</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Executor example">
+      <option name="closed" value="true" />
+      <created>1788836135682</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1788836135682</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -712,7 +755,8 @@
     <MESSAGE value="Serialization example" />
     <MESSAGE value="reflection example" />
     <MESSAGE value="thread example" />
-    <option name="LAST_COMMIT_MESSAGE" value="thread example" />
+    <MESSAGE value="Executor example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Executor example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -779,7 +823,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java8/datetime/TestMain.java</url>
-          <line>14</line>
+          <line>18</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -796,6 +840,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/emexo/constructor/Student.java</url>
           <line>29</line>
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/module/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="org.springframework.security.access.AccessDeniedException" package="org.springframework.security.access" />
