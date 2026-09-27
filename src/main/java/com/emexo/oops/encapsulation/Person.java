@@ -21,7 +21,7 @@ public class Person {
 
     // Setter for age
     public void setAge(int age) {
-        if (age >= 0) { // Simple validation
+        if (age >= 21) { // Simple validation
             this.age = age;
         } else {
             throw new IllegalArgumentException("Age cannot be negative");

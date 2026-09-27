@@ -7,11 +7,7 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c39e1887-1991-4b5d-a548-61f701555dd6" name="Changes" comment="inheritance class example">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/BaseModelCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/BaseModelCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/MidVariantCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/oops/inheritance/MidVariantCar.java" afterDir="false" />
-    </list>
+    <list default="true" id="c39e1887-1991-4b5d-a548-61f701555dd6" name="Changes" comment="inheritance class example" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -685,7 +681,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790484820462</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="inheritance class example">
+      <option name="closed" value="true" />
+      <created>1790486700020</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1790486700020</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">
