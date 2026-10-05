@@ -9,11 +9,11 @@ public class Account {
      * @param name
      * @return
      */
-    public static String getBankName(String name){
+    public String getBankName(String name){
         return name;
     }
 
-    public static void getBankName(){
+    public void getBankName(){
         var bankName = "SBI";
         log.info("Bank Name:{}", bankName);
     }

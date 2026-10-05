@@ -7,33 +7,7 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c39e1887-1991-4b5d-a548-61f701555dd6" name="Changes" comment="encapsulation class example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/constructor/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java21/StringTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java22/GathererExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java22/InstantMainMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java22/RunningSumExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java22/StructuredConcurrencyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java22/SuperStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java22/VirtualThreadScopedValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/method/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emexo/variable1/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/file2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/corejava.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/corejava.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/exception/ExceptionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/exception/ExceptionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java12/CompactNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java12/CompactNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java12/StringTransform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java12/StringTransform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java12/SwitchExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java12/SwitchExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java13/TestBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java13/TestBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java15/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java15/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java15/LoanAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/javafeatures/java15/LoanAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/method/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emexo/method/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/method/DBConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/method/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emexo/method/Student.java" beforeDir="false" />
-    </list>
+    <list default="true" id="c39e1887-1991-4b5d-a548-61f701555dd6" name="Changes" comment="method example" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -734,7 +708,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790487752339</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="method example">
+      <option name="closed" value="true" />
+      <created>1791163651591</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1791163651591</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -786,7 +768,8 @@
     <MESSAGE value="Abstract class example" />
     <MESSAGE value="inheritance class example" />
     <MESSAGE value="encapsulation class example" />
-    <option name="LAST_COMMIT_MESSAGE" value="encapsulation class example" />
+    <MESSAGE value="method example" />
+    <option name="LAST_COMMIT_MESSAGE" value="method example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
