@@ -1,7 +1,4 @@
-2026-09-25 07:44:42,001 INFO c.e.j.j.StringRepeat [main] HIHIHIHIHI
-2026-09-25 07:46:16,066 INFO c.e.j.j.StringIsBlank [main] 1
-2026-09-25 07:46:16,071 INFO c.e.j.j.StringIsBlank [main] false
-2026-09-25 07:48:45,027 INFO c.e.j.j.StringIsBlank [main] 1
-2026-09-25 07:48:45,030 INFO c.e.j.j.StringIsBlank [main] false
-2026-09-25 07:48:45,030 INFO c.e.j.j.StringIsBlank [main] true
-2026-09-25 07:58:12,801 INFO c.e.j.j.StringLines [main] [apple, apricot]
+2026-10-05 06:56:03,698 INFO c.e.m.Main [main] SBI
+2026-10-05 06:56:03,705 INFO c.e.m.Account [main] Bank Name:SBI
+2026-10-05 06:56:20,023 INFO c.e.m.Main [main] AXIS
+2026-10-05 06:56:20,028 INFO c.e.m.Account [main] Bank Name:SBI

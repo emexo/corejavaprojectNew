@@ -7,7 +7,9 @@ public class SwitchExpression {
     static void main() {
         String day = "MONDAY";
 
+
      String result =   switch (day){
+         case null-> "invalid day";
          case "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY" -> {
              log.info("This is a weekday");
              yield "Weekday";

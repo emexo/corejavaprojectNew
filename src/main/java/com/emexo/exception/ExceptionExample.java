@@ -28,8 +28,8 @@ public class ExceptionExample {
         try {
             c = a/b;
 
-        } catch (ArithmeticException | NullPointerException ex){
-            ex.printStackTrace();
+        } catch (ArithmeticException | NullPointerException _){
+
         } finally {
             log.info("#######Finally#####");
         }

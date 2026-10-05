@@ -15,17 +15,7 @@ public class CompactNumber {
                             NumberFormat.Style.SHORT
                     );
 
-            shortFormat.setMaximumFractionDigits(1);
-
-            NumberFormat longFormat =
-                    NumberFormat.getCompactNumberInstance(
-                            Locale.US,
-                            NumberFormat.Style.LONG
-                    );
-
-            longFormat.setMaximumFractionDigits(1);
-
             System.out.println("SHORT : " + shortFormat.format(number));
-            System.out.println("LONG  : " + longFormat.format(number));
+
         }
     }

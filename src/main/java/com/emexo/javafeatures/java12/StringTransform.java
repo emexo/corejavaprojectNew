@@ -10,12 +10,8 @@ public class StringTransform {
     public static void main(String[] args) {
         String name = "   Alex   ";
 
-        String name2 = name.strip().toUpperCase();
+     String name1 =  name.transform(String::strip).transform(String::toUpperCase);
 
-        String name1 = name.transform(str -> str.strip().toUpperCase());
-
-        log.info(name1);
-        log.info(name2);
-
+     log.info(name1);
     }
 }
