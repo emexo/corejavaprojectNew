@@ -19,4 +19,4 @@ public interface Car {
     private void print(){
         System.out.println("Private Method");
     }
-}//
+}

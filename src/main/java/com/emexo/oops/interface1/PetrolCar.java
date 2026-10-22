@@ -9,7 +9,5 @@ public class PetrolCar implements Car{
         log.info("Petrol engine");
     }
 
-    public void gearBox(){
-        log.info("Petrol car gear box");
-    }
+
 }

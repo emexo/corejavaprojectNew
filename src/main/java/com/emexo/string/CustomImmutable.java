@@ -7,10 +7,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public final class CustomImmutable {
-    private final String empName;
-    private final Integer empId;
-    private final Date date;
-    private final Map<String, String> map;
+    private final String empName; // immutable
+    private final Integer empId; // immutable
+    private final Date date; // mutable
+    private final Map<String, String> map; // mutable
 
     public CustomImmutable(String empName, Integer empId, Date date, Map<String, String> map) {
         this.empName = empName;

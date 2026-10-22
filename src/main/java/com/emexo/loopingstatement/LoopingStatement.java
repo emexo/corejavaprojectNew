@@ -8,9 +8,9 @@ public class LoopingStatement {
         LoopingStatement statement=new LoopingStatement();
         //statement.forLoop(5);
        // statement.forLoop(10);
-       // statement.nestedForLoop(5);
+        statement.nestedForLoop(5);
        // statement.whileLoop(5);
-        statement.doWhile(-5);
+        //statement.doWhile(-5);
     }
 
     public void forLoop(int n){
