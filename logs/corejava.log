@@ -1,5 +1,1 @@
-2026-10-14 06:50:49,372 INFO c.e.c.ConditionalStatement [main] APAC Report
-2026-10-14 06:52:10,282 INFO c.e.c.ConditionalStatement [main] Invalid Region
-2026-10-14 06:52:20,302 INFO c.e.c.ConditionalStatement [main] Invalid Region
-2026-10-14 06:53:28,635 INFO c.e.c.ConditionalStatement [main] EMEA Region
-2026-10-14 06:53:40,688 INFO c.e.c.ConditionalStatement [main] Invalid Region
+2026-10-24 06:42:09,750 INFO c.e.o.e.BankMain [main] 5000.0
